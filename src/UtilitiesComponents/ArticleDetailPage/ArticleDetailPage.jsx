@@ -1,6 +1,6 @@
 import React from 'react'
 import {useParams} from "react-router-dom";
-import {useState} from "react"
+import {useHistory} from 'react-router-dom'
 import useFetch from '../../UtilitiesFunctions/useFetch';
 import postData from '../../UtilitiesFunctions/postData';
 import deleteData from "../../UtilitiesFunctions/deleteData";
@@ -11,6 +11,7 @@ import HTMLText from "../HTMLText/HTMLText"
 
 export default function ArticleDetailPage() {
     const id = useParams().id;
+    const history = useHistory();
    
     const {fetchedData: article, isLoading, error} = useFetch(global.url + id);
 
@@ -36,7 +37,13 @@ export default function ArticleDetailPage() {
                 <div className={styles.centerRow}><HTMLText text={article.body}/></div>
 
                 <div className={styles.lastRow}>
-                    <button className={styles.button} onClick={() => deleteData(global.url + id)}>Delete</button>
+                    <button className={styles.button} onClick={() => {
+                        deleteData(global.url + id);
+                        alert("Article deleted!");
+                        history.go(-1);
+                    }
+                
+                }>Delete</button>
                     <form className={styles.form} onChange = {updateStatus}>
                         <input type="radio" id="read" name="status" value="Read"></input><label for = "read"> Read     </label>
                         <input type="radio" id="unread" name="status" value="Unread"></input><label for = "unread"> Unread</label>      

@@ -27,19 +27,6 @@
       "id": 3
     },
     {
-      "title": "Boeing's 777X jetliner comes together",
-      "mood": "Sad",
-      "status": "Read",
-      "body": "<p>Travelers around the globe are one step closer to seeing a plane with its wings folded up being taxied to their gate.</p><p>Slated to be one of the next darlings of commercial aviation, the Boeing 777X hit a production milestone this week when its major fuselage sections -- the airplane's nose, mid and aft sections -- were brought together.</p><p>It has the longest body produced by the manufacturer, of 252 feet, and the widest wingspan of any aircraft in the company's 102-year history: 235 feet, five inches.</p><p>The aircraft is the 777-9 variant, building on the 777 and 787 Dreamliner, and offering the largest, and most efficient, twin-engine in the world, Boeing said in a statement.</p><p>Its hinged wingtips alone measure 12 feet, with locking pins to prevent them from folding during flight.</p><p>The wings give the jetliner extra lift, similar to that of a giant sailplane glider, helping the plane to save an overall 12% more fuel than the Airbus A350, according to Boeing.</p><p>Its first flight is scheduled for 2019 and first deliveries are in 2020.</p><p>Seating 400 to 425 passengers, the plane features new lighting, architecture, a wider cabin and larger windows that are located higher on the fuselage than the current 777, the company said.</p><p>Folding wings are a feature of military aircraft, such as the F/A-18 fighters which need to squeeze onto US aircraft carriers.</p>",
-      "shortQuote": "Travelers around the globe are one step closer to seeing a plane with its wings folded up being taxied to their gate.",
-      "author": "Britney Collier",
-      "date": "2018-11-22",
-      "length": "Long",
-      "image_url": "https://cdn.cnn.com/cnnnext/dam/assets/181121164246-boeing-777-9x-assembly-1-super-169.jpg",
-      "original_page_url": "https://www.cnn.com/travel/article/boeing-777x-body-join-scli-intl/index.html",
-      "id": 4
-    },
-    {
       "title": "Training India's next generation of female pilots",
       "mood": "Scared",
       "status": "Unread",
@@ -129,6 +116,32 @@
       "image_url": "https://cdn.cnn.com/cnnnext/dam/assets/181121164246-boeing-777-9x-assembly-1-super-169.jpg",
       "original_page_url": "https://www.cnn.com/travel/article/boeing-777x-body-join-scli-intl/index.html",
       "id": 13
+    },
+    {
+      "title": "No image",
+      "mood": "Powerful",
+      "statu": "Unread",
+      "body": "Give it a try ",
+      "shortQuote": null,
+      "author": "Canlin Jiang",
+      "date": "2021-05-29",
+      "length": null,
+      "image_url": "https://youimg1.tripcdn.com/target/100t0d0000006wtrm89D9.jpg?proc=source%2Ftrip",
+      "original_url": null,
+      "id": 14
+    },
+    {
+      "title": "fffff",
+      "mood": "Peaceful",
+      "statu": "Unread",
+      "body": "Enter article here...dddddd",
+      "shortQuote": null,
+      "author": "Canlin Jiang",
+      "date": "2021-05-29",
+      "length": null,
+      "image_url": "https://youimg1.tripcdn.com/target/100t0d0000006wtrm89D9.jpg?proc=source%2Ftrip",
+      "original_url": null,
+      "id": 15
     }
   ]
 }

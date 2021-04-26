@@ -1,0 +1,144 @@
+.topContainer{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 25px;
+}
+
+.title{
+    flex-grow: 9;
+    margin-right: 20px;
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.topButton{
+    flex-grow: 1;
+    margin-right: 20px;
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.topButton:last-child{
+    flex-grow: 1;
+    margin-right: 0px;
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.bodyContainer{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    align-self: center;
+    margin-bottom: 25px;
+    padding:30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.bottomContainer{
+    width: 80%;
+    display: flex;
+    padding-right:10px;
+}
+
+.shortQuote{
+    flex-grow: 5;
+    padding:30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.columnLinkContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column wrap;
+    margin:0;
+}
+.columnLinkContainer input[type="radio"]{
+    padding:10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.link {
+    width: 100%;
+    padding:10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+.length {
+    padding:10px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.lastRowContainer{
+    margin-top: 25px;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0px;
+}
+
+.lastRowContainer input{
+    padding:10px;
+    margin-top: 0px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.lastRowContainer input[type="submit"]{
+    padding:10px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: color 1s, background-color 0.5s;
+}
+
+.lastRowContainer input[type="submit"]:hover{
+    padding:10px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+}
+
+.flexContainer{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .flexContainer, .topContainer, .bodyContainer, .bottomContainer, .columnLinkContainer, .lastRowContainer, .length, .link, .shortQuote, .title, .topButton{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .shortQuote{
+        margin-left: 10px;
+    }
+    .bottomContainer{
+        margin-left: -10px;
+        width: 103%;
+    }
+
+    .lastRowContainer input{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}

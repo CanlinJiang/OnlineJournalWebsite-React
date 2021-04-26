@@ -1,0 +1,91 @@
+body {
+    min-width: 330px;
+}
+
+.topNav ul {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.midNav ul {
+    font-size: 2vw;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.midNav ul a{
+    padding: 5px 15px 5px 0px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 10px;  
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.titleContainer{
+    flex-grow: 1;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+.titleContainer h1{
+    font-size: 5vw;
+    font-family: "prata",serif;
+}
+
+.imageContainer{
+    flex-grow: 1;
+}
+
+
+@media (max-width: 767px) {
+    .container{
+        display: block;
+    }
+    .titleContainer{
+        width: 100%;
+        text-align: center;
+    }
+    .titleContainer h1{
+        font-size: 2rem;
+    }
+    .midNav ul {
+        font-size: small;
+        justify-content: center;
+    }
+    .imageContainer{
+        display: block;
+        width: 100%;
+    }
+    .topNav ul {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        margin-bottom: 200px;
+    }
+}

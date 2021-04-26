@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer tests renders correctly 1`] = `
+<div>
+  <nav>
+    <ul
+      class="navigation"
+    >
+      <li
+        id="aboutMe"
+      >
+        <a
+          href="/aboutme"
+        >
+          About me
+        </a>
+      </li>
+      <li
+        id="contactMe"
+      >
+        <a
+          href="/contactme"
+        >
+          Contact me
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

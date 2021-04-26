@@ -1,0 +1,38 @@
+.textContainer {
+    display: grid;
+    grid-template-rows: 3;
+    margin: 200px 200px 350px;
+    justify-content: center;
+}
+
+.textContainer h1{
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.textContainer p{
+    font-size: 17px;
+}
+
+@media (max-width:767px) {
+    .textContainer {
+        display: grid;
+        grid-template-rows: 3;
+        margin: 100px 40px 250px;
+        justify-content: center;
+    }
+    .textContainer p{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1099px) {
+    .textContainer h1{
+        font-size: 180px;
+        margin-bottom: 10px;
+    }
+    
+    .textContainer p{
+        font-size: 30px;
+    }
+}

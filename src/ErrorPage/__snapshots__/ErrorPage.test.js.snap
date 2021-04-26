@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorPage tests renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="header"
+    >
+      <nav
+        class="navigation"
+      >
+        <ul
+          class="leftBar"
+        >
+          <li>
+            <a
+              href="/minelist"
+            >
+              Mine's
+            </a>
+          </li>
+          <li>
+            <a
+              href="/moodchoosing"
+            >
+              Moods
+            </a>
+          </li>
+          <li>
+            <a
+              href="/randomwalk"
+            >
+              Random Walk
+            </a>
+          </li>
+        </ul>
+        <ul
+          class="rightBar"
+        >
+          <li
+            id="home"
+          >
+            <a
+              aria-current="page"
+              class="active"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            id="addNewArticle"
+          >
+            <a
+              href="/addnewarticle"
+            >
+              Add New Article
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div
+      class="body"
+    >
+      <div
+        class="textContainer"
+      >
+        <h1>
+          404
+        </h1>
+        <p>
+          Not Found
+        </p>
+        <p>
+          The requested URL was not found on this server
+        </p>
+      </div>
+    </div>
+    <div
+      class="footer"
+    >
+      <nav>
+        <ul
+          class="navigation"
+        >
+          <li
+            id="aboutMe"
+          >
+            <a
+              href="/aboutme"
+            >
+              About me
+            </a>
+          </li>
+          <li
+            id="contactMe"
+          >
+            <a
+              href="/contactme"
+            >
+              Contact me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+`;

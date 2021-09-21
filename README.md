@@ -1,4 +1,4 @@
-# SEA INFO-6150 Final Project
+# Online Journal Website
 
 ## Instruction
 I'm using the local port as a mock API, so please type `npx json-server --watch data/articles.json --port 9000` on the file terminal to see mock backend( If error, please type `npx install` first).
